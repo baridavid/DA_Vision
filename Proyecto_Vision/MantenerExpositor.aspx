@@ -159,9 +159,9 @@
                 <nav>
                     <h2>Mantener</h2>
                     <ul>
-                        <li><a href="calendar.html">Mantener Ponencia</a></li>
-                        <li><a href="wysiwyg.html">Mantener Expositor</a></li>
-                        <li><a href="wysiwyg.html">Mantener Evento</a></li>
+                        <li><a href="MantenerPonencia.aspx">Mantener Ponencia</a></li>
+                        <li><a href="MantenerExpositor.aspx">Mantener Expositor</a></li>
+                        <li><a href="MantenerEvento.aspx">Mantener Evento</a></li>
                     </ul>
                 </nav>
             </aside>
