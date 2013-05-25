@@ -146,14 +146,13 @@
             <aside>
                 <nav>
                     <ul>
-                        <li class="current"><a href="dashboard.html">Dashboard</a></li>
-                        <li><a href="media.html">Media</a>
+                        <li class="current"><a href="RegistrarEvento.aspx">Registrar Evento</a></li>
+                        <li><a href="#">Registrar Expositor</a>
                         
                         	
                         </li>
-                        <li><a href="forms.html">Forms</a></li>
-                        <li><a href="wizard.html">Wizard</a></li>
-                        <li><a href="tables.html">Tables</a></li>
+                        <li><a href="#">Registrar Ponencia</a></li>
+                        
                     </ul>
                 </nav>
                 <nav>
