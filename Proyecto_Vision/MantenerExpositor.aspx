@@ -187,7 +187,9 @@
                             <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
                                 ConnectionString="<%$ ConnectionStrings:dis_eventoConnectionString4 %>" 
                                 ProviderName="<%$ ConnectionStrings:dis_eventoConnectionString4.ProviderName %>" 
-                                SelectCommand="SELECT cod_exp, tip_doc, num_doc, nom_exp, ape_pat_exp, ape_mat_exp, pais_exp, fot_exp, especialidad FROM expositor">
+                                
+                                SelectCommand="SELECT cod_exp, tip_doc, num_doc, nom_exp, ape_pat_exp, ape_mat_exp, pais_exp, fot_exp, especialidad FROM expositor" 
+                                DeleteCommand="delete from expositor where cod_exp=@cod_exp">
                             </asp:SqlDataSource>
     
 
