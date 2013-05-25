@@ -145,6 +145,7 @@
     <Content Include="MantenerExpositor.aspx" />
     <Content Include="MantenerPonencia.aspx" />
     <Content Include="page.html" />
+    <Content Include="RegistrarExpositor.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -221,6 +222,13 @@
     </Compile>
     <Compile Include="RegistrarEvento.aspx.vb">
       <DependentUpon>RegistrarEvento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RegistrarExpositor.aspx.designer.vb">
+      <DependentUpon>RegistrarExpositor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarExpositor.aspx.vb">
+      <DependentUpon>RegistrarExpositor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
