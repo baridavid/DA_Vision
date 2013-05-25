@@ -132,6 +132,7 @@
     <Content Include="lib\jqplot\jquery.jqplot.min.js" />
     <Content Include="lib\jqplot\plugins\jqplot.barRenderer.min.js" />
     <Content Include="lib\jqplot\plugins\jqplot.categoryAxisRenderer.min.js" />
+    <Content Include="Login.aspx" />
     <Content Include="MantenerExpositor.aspx" />
     <Content Include="MantenerPonencia.aspx" />
     <Content Include="RegistrarEvento.aspx" />
@@ -152,6 +153,13 @@
     </Compile>
     <Compile Include="index.aspx.vb">
       <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="MantenerExpositor.aspx.designer.vb">
