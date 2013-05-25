@@ -197,8 +197,13 @@
                             <br />
                             <br />
                             <asp:GridView ID="GridView1" runat="server" CellPadding="4" 
-                                DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
+                                DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" 
+                                Width="524px">
                                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                                <Columns>
+                                    <asp:CommandField ShowEditButton="True" />
+                                    <asp:CommandField ShowDeleteButton="True" />
+                                </Columns>
                                 <EditRowStyle BackColor="#999999" />
                                 <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
                                 <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />

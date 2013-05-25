@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class MantenerEvento
+Partial Public Class MantenerExpositor
 
     '''<summary>
     '''Head1 control.

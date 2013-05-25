@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="MantenerEvento.aspx.vb" Inherits="Proyecto_Vision.MantenerEvento" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="MantenerEvento.aspx.vb" Inherits="Proyecto_Vision.MantenerExpositor" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -190,8 +190,7 @@
                                 ConnectionString="<%$ ConnectionStrings:dis_eventoConnectionString4 %>" 
                                 ProviderName="<%$ ConnectionStrings:dis_eventoConnectionString4.ProviderName %>" 
                                 
-                                
-                                SelectCommand="SELECT id_eve, nom_eve, fech_ini_eve, fech_fin_eve, est_eve FROM evento">
+                                SelectCommand="SELECT nom_eve, fech_ini_eve, fech_fin_eve, est_eve FROM evento">
                             </asp:SqlDataSource>
     
 
@@ -199,8 +198,13 @@
                             <br />
                             <br />
                             <asp:GridView ID="GridView1" runat="server" CellPadding="4" 
-                                DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
+                                DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" 
+                                Width="524px">
                                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                                <Columns>
+                                    <asp:CommandField ShowEditButton="True" />
+                                    <asp:CommandField ShowDeleteButton="True" />
+                                </Columns>
                                 <EditRowStyle BackColor="#999999" />
                                 <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
                                 <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />

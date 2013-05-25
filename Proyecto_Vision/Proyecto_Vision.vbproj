@@ -88,6 +88,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="another_page.html" />
+    <Content Include="App_Data\dis_evento.mdf" />
+    <Content Include="App_Data\dis_evento_log.ldf">
+      <DependentUpon>dis_evento.mdf</DependentUpon>
+    </Content>
     <Content Include="contact.html" />
     <Content Include="css\grids.css" />
     <Content Include="css\jquery.jqplot.min.css" />
@@ -107,6 +111,24 @@
     <Content Include="images\profile-image.png" />
     <Content Include="images\sidebar-shadow.png" />
     <Content Include="index.aspx" />
+    <Content Include="index\css\style.css" />
+    <Content Include="index\documentation\index.html" />
+    <Content Include="index\fonts\News Cycle SIL OFL Font License 1.1.txt" />
+    <Content Include="index\images\1.jpg" />
+    <Content Include="index\images\2.jpg" />
+    <Content Include="index\images\3.jpg" />
+    <Content Include="index\images\4.jpg" />
+    <Content Include="index\images\5.jpg" />
+    <Content Include="index\images\arrows-white.png" />
+    <Content Include="index\images\bullet.png" />
+    <Content Include="index\images\calendar.png" />
+    <Content Include="index\images\pattern.png" />
+    <Content Include="index\js\image_fade.js" />
+    <Content Include="index\js\jquery.easing-sooper.js" />
+    <Content Include="index\js\jquery.js" />
+    <Content Include="index\js\jquery.kwicks-1.5.1.js" />
+    <Content Include="index\js\jquery.sooperfish.js" />
+    <Content Include="index\js\modernizr-1.5.min.js" />
     <Content Include="js\global.js" />
     <Content Include="js\jqplot.barRenderer.min.js" />
     <Content Include="js\jqplot.categoryAxisRenderer.min.js" />
@@ -130,6 +152,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="RegistrarEvento.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Home.aspx.designer.vb">
@@ -193,6 +216,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="RegistrarEvento.aspx.designer.vb">
+      <DependentUpon>RegistrarEvento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarEvento.aspx.vb">
+      <DependentUpon>RegistrarEvento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -203,6 +233,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="index\fonts\NewsCycle-Regular.eot" />
+    <None Include="index\fonts\NewsCycle-Regular.ttf" />
+    <None Include="index\fonts\YanoneKaffeesatz-Regular.eot" />
+    <None Include="index\fonts\YanoneKaffeesatz-Regular.ttf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

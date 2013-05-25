@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class MantenerExpositor
 
     '''<summary>
+    '''Head1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Head1 As Global.System.Web.UI.HtmlControls.HtmlHead
+
+    '''<summary>
     '''form1 control.
     '''</summary>
     '''<remarks>
