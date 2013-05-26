@@ -186,15 +186,36 @@
                                 ConnectionString="<%$ ConnectionStrings:dis_eventoConnectionString %>" 
                                 ProviderName="<%$ ConnectionStrings:dis_eventoConnectionString.ProviderName %>" 
                                 
-                                SelectCommand="SELECT tip_doc, num_doc, nom_exp, ape_pat_exp, ape_mat_exp, pais_exp FROM expositor">
+                                
+                                SelectCommand="SELECT cod_exp ,tip_doc, num_doc, nom_exp, ape_pat_exp, ape_mat_exp, pais_exp FROM expositor" 
+                                DeleteCommand="DELETE FROM expositor WHERE cod_exp=@cod_exp">
                             </asp:SqlDataSource>
                         
 
                         
 
 <asp:GridView ID="GridView1" runat="server" CellPadding="4" DataSourceID="SqlDataSource1" 
-                                ForeColor="#333333" GridLines="None">
+                                ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" 
+                                DataKeyNames="cod_exp">
     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+    <Columns>
+        <asp:BoundField DataField="cod_exp" HeaderText="cod_exp" ReadOnly="True" 
+            SortExpression="cod_exp" />
+        <asp:BoundField DataField="tip_doc" HeaderText="tip_doc" 
+            SortExpression="tip_doc" />
+        <asp:BoundField DataField="num_doc" HeaderText="num_doc" 
+            SortExpression="num_doc" />
+        <asp:BoundField DataField="nom_exp" HeaderText="nom_exp" 
+            SortExpression="nom_exp" />
+        <asp:BoundField DataField="ape_pat_exp" HeaderText="ape_pat_exp" 
+            SortExpression="ape_pat_exp" />
+        <asp:BoundField DataField="ape_mat_exp" HeaderText="ape_mat_exp" 
+            SortExpression="ape_mat_exp" />
+        <asp:BoundField DataField="pais_exp" HeaderText="pais_exp" 
+            SortExpression="pais_exp" />
+        <asp:CommandField ShowEditButton="True" />
+        <asp:CommandField ShowDeleteButton="True" />
+    </Columns>
     <EditRowStyle BackColor="#999999" />
     <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
     <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />

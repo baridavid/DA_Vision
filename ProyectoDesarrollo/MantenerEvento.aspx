@@ -185,27 +185,46 @@
                             <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
                                 ConnectionString="<%$ ConnectionStrings:dis_eventoConnectionString %>" 
                                 ProviderName="<%$ ConnectionStrings:dis_eventoConnectionString.ProviderName %>" 
-                                SelectCommand="SELECT nom_eve, fech_ini_eve, fech_fin_eve, est_eve FROM evento">
+                                
+                                SelectCommand="SELECT id_eve, nom_eve, fech_ini_eve, fech_fin_eve, est_eve FROM evento" 
+                                DeleteCommand="DELETE FROM evento WHERE id_eve=@id_eve">
                             </asp:SqlDataSource>
                         
 
                         
 
-<asp:GridView ID="GridView1" runat="server" CellPadding="4" DataSourceID="SqlDataSource1" 
+                            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
+                                CellPadding="4" DataKeyNames="id_eve" DataSourceID="SqlDataSource1" 
                                 ForeColor="#333333" GridLines="None">
-    <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
-    <EditRowStyle BackColor="#999999" />
-    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
-    <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
-    <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
-    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
-    <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
-    <SortedAscendingCellStyle BackColor="#E9E7E2" />
-    <SortedAscendingHeaderStyle BackColor="#506C8C" />
-    <SortedDescendingCellStyle BackColor="#FFFDF8" />
-    <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+                                <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                                <Columns>
+                                    <asp:BoundField DataField="id_eve" HeaderText="id_eve" InsertVisible="False" 
+                                        ReadOnly="True" SortExpression="id_eve" />
+                                    <asp:BoundField DataField="nom_eve" HeaderText="nom_eve" 
+                                        SortExpression="nom_eve" />
+                                    <asp:BoundField DataField="fech_ini_eve" HeaderText="fech_ini_eve" 
+                                        SortExpression="fech_ini_eve" />
+                                    <asp:BoundField DataField="fech_fin_eve" HeaderText="fech_fin_eve" 
+                                        SortExpression="fech_fin_eve" />
+                                    <asp:BoundField DataField="est_eve" HeaderText="est_eve" 
+                                        SortExpression="est_eve" />
+                                    <asp:CommandField ShowDeleteButton="True" />
+                                    <asp:CommandField ShowEditButton="True" />
+                                </Columns>
+                                <EditRowStyle BackColor="#999999" />
+                                <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                                <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                                <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                                <SortedAscendingCellStyle BackColor="#E9E7E2" />
+                                <SortedAscendingHeaderStyle BackColor="#506C8C" />
+                                <SortedDescendingCellStyle BackColor="#FFFDF8" />
+                                <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
                             </asp:GridView>
+                        
 
+                        
 
                             <br />
                         

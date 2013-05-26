@@ -19,14 +19,14 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">photo<span class="logo_colour">_style_two</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
+             <h1><a href="index.html">Even<span class="logo_colour">System</span></a></h1>
+          <h2>Sistema de gestion de eventos.</h2>
         </div>
       </div>
       <nav>
         <ul class="sf-menu" id="nav">
           <li class="selected"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
+          <li><a href="about.html">Sobre Nosotros</a></li>
           <li><a href="portfolio.html">My Portfolio</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="#">Example Drop Down</a>
@@ -46,7 +46,8 @@
               <li><a href="#">Drop Down Five</a></li>
             </ul>
           </li>
-          <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="RegistrarParticipante.aspx">Registrate</a></li>
+          
           <li><a href="Login.aspx">Login</a></li>
         </ul>
       </nav>
