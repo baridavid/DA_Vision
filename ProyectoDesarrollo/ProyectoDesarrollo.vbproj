@@ -87,22 +87,22 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\grids.css" />
-    <Content Include="css\jquery.jqplot.min.css" />
-    <Content Include="css\jquery.uniform.css" />
-    <Content Include="css\reset.css" />
-    <Content Include="css\style.css" />
-    <Content Include="css\themes\lightblue\style.css" />
+    <Content Include="admin\css\grids.css" />
+    <Content Include="admin\css\jquery.jqplot.min.css" />
+    <Content Include="admin\css\jquery.uniform.css" />
+    <Content Include="admin\css\reset.css" />
+    <Content Include="admin\css\style.css" />
+    <Content Include="admin\css\themes\lightblue\style.css" />
     <Content Include="EventSystem.aspx" />
-    <Content Include="images\ajax-loader-eeeeee.gif" />
-    <Content Include="images\arrow-down.png" />
-    <Content Include="images\arrow-right.png" />
-    <Content Include="images\bg.jpg" />
-    <Content Include="images\check.png" />
-    <Content Include="images\descarga.png" />
-    <Content Include="images\profile-image-bg.png" />
-    <Content Include="images\profile-image.png" />
-    <Content Include="images\sidebar-shadow.png" />
+    <Content Include="admin\images\ajax-loader-eeeeee.gif" />
+    <Content Include="admin\images\arrow-down.png" />
+    <Content Include="admin\images\arrow-right.png" />
+    <Content Include="admin\images\bg.jpg" />
+    <Content Include="admin\images\check.png" />
+    <Content Include="admin\images\descarga.png" />
+    <Content Include="admin\images\profile-image-bg.png" />
+    <Content Include="admin\images\profile-image.png" />
+    <Content Include="admin\images\sidebar-shadow.png" />
     <Content Include="index.aspx" />
     <Content Include="index\css\style.css" />
     <Content Include="index\documentation\index.html" />
@@ -122,24 +122,24 @@
     <Content Include="index\js\jquery.kwicks-1.5.1.js" />
     <Content Include="index\js\jquery.sooperfish.js" />
     <Content Include="index\js\modernizr-1.5.min.js" />
-    <Content Include="js\global.js" />
-    <Content Include="js\jqplot.barRenderer.min.js" />
-    <Content Include="js\jqplot.categoryAxisRenderer.min.js" />
-    <Content Include="js\jquery.jqplot.min.js" />
-    <Content Include="js\jquery.js" />
-    <Content Include="js\jquery.tools.min.js" />
-    <Content Include="js\jquery.uniform.min.js" />
-    <Content Include="lib\jqplot\jquery.jqplot.min.css" />
-    <Content Include="lib\jqplot\jquery.jqplot.min.js" />
-    <Content Include="lib\jqplot\plugins\jqplot.barRenderer.min.js" />
-    <Content Include="lib\jqplot\plugins\jqplot.categoryAxisRenderer.min.js" />
+    <Content Include="admin\js\global.js" />
+    <Content Include="admin\js\jqplot.barRenderer.min.js" />
+    <Content Include="admin\js\jqplot.categoryAxisRenderer.min.js" />
+    <Content Include="admin\js\jquery.jqplot.min.js" />
+    <Content Include="admin\js\jquery.js" />
+    <Content Include="admin\js\jquery.tools.min.js" />
+    <Content Include="admin\js\jquery.uniform.min.js" />
+    <Content Include="admin\lib\jqplot\jquery.jqplot.min.css" />
+    <Content Include="admin\lib\jqplot\jquery.jqplot.min.js" />
+    <Content Include="admin\lib\jqplot\plugins\jqplot.barRenderer.min.js" />
+    <Content Include="admin\lib\jqplot\plugins\jqplot.categoryAxisRenderer.min.js" />
     <Content Include="Login.aspx" />
-    <Content Include="MantenerExpositor.aspx" />
-    <Content Include="MantenerPonencia.aspx" />
-    <Content Include="RegistrarEvento.aspx" />
-    <Content Include="RegistrarExpositor.aspx" />
+    <Content Include="admin\MantenerExpositor.aspx" />
+    <Content Include="admin\MantenerPonencia.aspx" />
+    <Content Include="admin\RegistrarEvento.aspx" />
+    <Content Include="admin\RegistrarExpositor.aspx" />
     <Content Include="RegistrarParticipante.aspx" />
-    <Content Include="RegistrarPonencia.aspx" />
+    <Content Include="admin\RegistrarPonencia.aspx" />
     <Content Include="system\css\css.css" />
     <Content Include="system\css\reset.css" />
     <Content Include="system\css\wufo\form.css" />
@@ -161,7 +161,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="MantenerEvento.aspx" />
+    <Content Include="admin\MantenerEvento.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EventSystem.aspx.designer.vb">
@@ -185,17 +185,17 @@
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="MantenerExpositor.aspx.designer.vb">
+    <Compile Include="admin\MantenerExpositor.aspx.designer.vb">
       <DependentUpon>MantenerExpositor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MantenerExpositor.aspx.vb">
+    <Compile Include="admin\MantenerExpositor.aspx.vb">
       <DependentUpon>MantenerExpositor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="MantenerPonencia.aspx.designer.vb">
+    <Compile Include="admin\MantenerPonencia.aspx.designer.vb">
       <DependentUpon>MantenerPonencia.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MantenerPonencia.aspx.vb">
+    <Compile Include="admin\MantenerPonencia.aspx.vb">
       <DependentUpon>MantenerPonencia.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -218,24 +218,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="MantenerEvento.aspx.designer.vb">
+    <Compile Include="admin\MantenerEvento.aspx.designer.vb">
       <DependentUpon>MantenerEvento.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MantenerEvento.aspx.vb">
+    <Compile Include="admin\MantenerEvento.aspx.vb">
       <DependentUpon>MantenerEvento.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="RegistrarEvento.aspx.designer.vb">
+    <Compile Include="admin\RegistrarEvento.aspx.designer.vb">
       <DependentUpon>RegistrarEvento.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarEvento.aspx.vb">
+    <Compile Include="admin\RegistrarEvento.aspx.vb">
       <DependentUpon>RegistrarEvento.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="RegistrarExpositor.aspx.designer.vb">
+    <Compile Include="admin\RegistrarExpositor.aspx.designer.vb">
       <DependentUpon>RegistrarExpositor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarExpositor.aspx.vb">
+    <Compile Include="admin\RegistrarExpositor.aspx.vb">
       <DependentUpon>RegistrarExpositor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -246,10 +246,10 @@
       <DependentUpon>RegistrarParticipante.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="RegistrarPonencia.aspx.designer.vb">
+    <Compile Include="admin\RegistrarPonencia.aspx.designer.vb">
       <DependentUpon>RegistrarPonencia.aspx</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarPonencia.aspx.vb">
+    <Compile Include="admin\RegistrarPonencia.aspx.vb">
       <DependentUpon>RegistrarPonencia.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>

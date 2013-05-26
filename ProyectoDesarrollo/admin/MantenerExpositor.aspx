@@ -144,14 +144,13 @@
         <section>
             <!-- Sidebar -->
 
-            <aside>
+               <aside>
                 <nav>
                     <ul>
                         <li class="current"><a href="#">Registrar</a></li>
                          <li><a href="RegistrarPonencia.aspx">Registrar Ponencia</a></li>
                         <li><a href="RegistrarExpositor.aspx">Registrar Expositor</a></li>
                         <li><a href="RegistrarEvento.aspx">Registrar Evento</a></li>
-                        
                     </ul>
                 </nav>
                 <nav>
@@ -188,69 +187,49 @@
                                 ProviderName="<%$ ConnectionStrings:dis_eventoConnectionString.ProviderName %>" 
                                 
                                 
-                                
-                                
-                                
-                                
-                                
-                                SelectCommand="SELECT id_pon, cod_exp_pon, cod_eve_pon, fech_ini_pon, fech_fin_pon, nom_pon, desc_pon, tipo_pon, dirigido_a_pon, est_pon, id_amb_pon, id_req_pon FROM ponencia" 
-                                DeleteCommand="DELETE FROM ponencia where id_pon=@id_pon">
+                                SelectCommand="SELECT cod_exp ,tip_doc, num_doc, nom_exp, ape_pat_exp, ape_mat_exp, pais_exp FROM expositor" 
+                                DeleteCommand="DELETE FROM expositor WHERE cod_exp=@cod_exp">
                             </asp:SqlDataSource>
                         
 
                         
 
-                            <br />
-                        
-
-                        
-
-
-
-
-                            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
-                                CellPadding="4" DataKeyNames="id_pon" DataSourceID="SqlDataSource1" 
-                                ForeColor="#333333" GridLines="None">
-                                <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
-                                <Columns>
-                                    <asp:BoundField DataField="id_pon" HeaderText="id_pon" InsertVisible="False" 
-                                        ReadOnly="True" SortExpression="id_pon" />
-                                    <asp:BoundField DataField="cod_exp_pon" HeaderText="cod_exp_pon" 
-                                        SortExpression="cod_exp_pon" />
-                                    <asp:BoundField DataField="cod_eve_pon" HeaderText="cod_eve_pon" 
-                                        SortExpression="cod_eve_pon" />
-                                    <asp:BoundField DataField="fech_ini_pon" HeaderText="fech_ini_pon" 
-                                        SortExpression="fech_ini_pon" />
-                                    <asp:BoundField DataField="fech_fin_pon" HeaderText="fech_fin_pon" 
-                                        SortExpression="fech_fin_pon" />
-                                    <asp:BoundField DataField="nom_pon" HeaderText="nom_pon" 
-                                        SortExpression="nom_pon" />
-                                    <asp:BoundField DataField="desc_pon" HeaderText="desc_pon" 
-                                        SortExpression="desc_pon" />
-                                    <asp:BoundField DataField="tipo_pon" HeaderText="tipo_pon" 
-                                        SortExpression="tipo_pon" />
-                                    <asp:BoundField DataField="dirigido_a_pon" HeaderText="dirigido_a_pon" 
-                                        SortExpression="dirigido_a_pon" />
-                                    <asp:BoundField DataField="est_pon" HeaderText="est_pon" 
-                                        SortExpression="est_pon" />
-                                    <asp:BoundField DataField="id_amb_pon" HeaderText="id_amb_pon" 
-                                        SortExpression="id_amb_pon" />
-                                    <asp:BoundField DataField="id_req_pon" HeaderText="id_req_pon" 
-                                        SortExpression="id_req_pon" />
-                                    <asp:CommandField ShowEditButton="True" />
-                                    <asp:CommandField ShowDeleteButton="True" />
-                                </Columns>
-                                <EditRowStyle BackColor="#999999" />
-                                <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
-                                <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
-                                <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
-                                <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
-                                <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
-                                <SortedAscendingCellStyle BackColor="#E9E7E2" />
-                                <SortedAscendingHeaderStyle BackColor="#506C8C" />
-                                <SortedDescendingCellStyle BackColor="#FFFDF8" />
-                                <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+<asp:GridView ID="GridView1" runat="server" CellPadding="4" DataSourceID="SqlDataSource1" 
+                                ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" 
+                                DataKeyNames="cod_exp">
+    <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+    <Columns>
+        <asp:BoundField DataField="cod_exp" HeaderText="cod_exp" ReadOnly="True" 
+            SortExpression="cod_exp" />
+        <asp:BoundField DataField="tip_doc" HeaderText="tip_doc" 
+            SortExpression="tip_doc" />
+        <asp:BoundField DataField="num_doc" HeaderText="num_doc" 
+            SortExpression="num_doc" />
+        <asp:BoundField DataField="nom_exp" HeaderText="nom_exp" 
+            SortExpression="nom_exp" />
+        <asp:BoundField DataField="ape_pat_exp" HeaderText="ape_pat_exp" 
+            SortExpression="ape_pat_exp" />
+        <asp:BoundField DataField="ape_mat_exp" HeaderText="ape_mat_exp" 
+            SortExpression="ape_mat_exp" />
+        <asp:BoundField DataField="pais_exp" HeaderText="pais_exp" 
+            SortExpression="pais_exp" />
+        <asp:CommandField ShowEditButton="True" />
+        <asp:CommandField ShowDeleteButton="True" />
+    </Columns>
+    <EditRowStyle BackColor="#999999" />
+    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+    <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+    <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+    <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+    <SortedAscendingCellStyle BackColor="#E9E7E2" />
+    <SortedAscendingHeaderStyle BackColor="#506C8C" />
+    <SortedDescendingCellStyle BackColor="#FFFDF8" />
+    <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
                             </asp:GridView>
+
+
+                            <br />
                         
 
                         
