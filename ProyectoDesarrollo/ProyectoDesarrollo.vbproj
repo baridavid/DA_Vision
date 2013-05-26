@@ -93,6 +93,7 @@
     <Content Include="css\reset.css" />
     <Content Include="css\style.css" />
     <Content Include="css\themes\lightblue\style.css" />
+    <Content Include="EventSystem.aspx" />
     <Content Include="images\ajax-loader-eeeeee.gif" />
     <Content Include="images\arrow-down.png" />
     <Content Include="images\arrow-right.png" />
@@ -139,6 +140,20 @@
     <Content Include="RegistrarExpositor.aspx" />
     <Content Include="RegistrarParticipante.aspx" />
     <Content Include="RegistrarPonencia.aspx" />
+    <Content Include="system\css\css.css" />
+    <Content Include="system\css\reset.css" />
+    <Content Include="system\css\wufo\form.css" />
+    <Content Include="system\css\wufo\structure.css" />
+    <Content Include="system\css\wufo\theme.css" />
+    <Content Include="system\funciones.js" />
+    <Content Include="system\images\buho.jpg" />
+    <Content Include="system\images\cabecera.png" />
+    <Content Include="system\images\pie.png" />
+    <Content Include="system\jquery-1.7.2.min.js" />
+    <Content Include="system\jquery.min.js" />
+    <Content Include="system\libs\base64.js" />
+    <Content Include="system\libs\sprintf.js" />
+    <Content Include="system\script.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -149,6 +164,13 @@
     <Content Include="MantenerEvento.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventSystem.aspx.designer.vb">
+      <DependentUpon>EventSystem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventSystem.aspx.vb">
+      <DependentUpon>EventSystem.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="index.aspx.designer.vb">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>

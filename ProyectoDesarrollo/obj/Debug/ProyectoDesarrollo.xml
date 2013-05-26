@@ -6,7 +6,23 @@ ProyectoDesarrollo
 </name>
 </assembly>
 <members>
-<member name="P:ProyectoDesarrollo.My.MyWebExtension.Application">
+<member name="F:ProyectoDesarrollo.Login.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Login.Login12">
+	<summary>
+Login12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:ProyectoDesarrollo.My.MyWebExtension.Application">
 	<summary>
  Returns information about the current application.
  </summary>
@@ -162,22 +178,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ProyectoDesarrollo.WebForm1.GridView1">
 	<summary>
 GridView1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.Login.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.Login.Login1">
-	<summary>
-Login1 control.
 </summary>
 	<remarks>
 Auto-generated field.

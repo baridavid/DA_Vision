@@ -25,27 +25,11 @@
       <nav>
         <ul class="sf-menu" id="nav">
           <li class="selected"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="portfolio.html">My Portfolio</a></li>
+          <li><a href="about.html">Sobre Nosotros</a></li>
+          <li><a href="portfolio.html">Eventos</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="#">Example Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down One</a></li>
-              <li><a href="#">Drop Down Two</a>
-                <ul>
-                  <li><a href="#">Sub Drop Down One</a></li>
-                  <li><a href="#">Sub Drop Down Two</a></li>
-                  <li><a href="#">Sub Drop Down Three</a></li>
-                  <li><a href="#">Sub Drop Down Four</a></li>
-                  <li><a href="#">Sub Drop Down Five</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down Three</a></li>
-              <li><a href="#">Drop Down Four</a></li>
-              <li><a href="#">Drop Down Five</a></li>
-            </ul>
-          </li>
           <li><a href="RegistrarParticipante.aspx">Registrate</a></li>
+          <li><a href="Login.aspx">Login</a></li>
         </ul>
       </nav>
     </header>
@@ -54,7 +38,7 @@
         <form id="form1" runat="server">
     <div>
     
-
+    <h2>Registrate!</h2>
 
         <asp:Label ID="Label1" runat="server" Text="Tipo de documento"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server">
@@ -108,7 +92,7 @@
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; photo_style_two | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+      <p>Copyright &copy; :) | <a href="#">Sistema de Gestion de Eventos</a></p>
     </footer>
   </div>
   <p>&nbsp;</p>
