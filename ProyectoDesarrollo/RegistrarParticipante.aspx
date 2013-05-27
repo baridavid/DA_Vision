@@ -25,7 +25,7 @@
       </div>
       <nav>
         <ul class="sf-menu" id="nav">
-          <li class="selected"><a href="index.html">Home</a></li>
+          <li class="selected"><a href="index.aspx">Home</a></li>
           <li><a href="about.html">Sobre Nosotros</a></li>
           <li><a href="portfolio.html">Eventos</a></li>
           <li><a href="blog.html">Blog</a></li>
@@ -41,7 +41,7 @@
     
     <h2>Registrate!</h2>
 
-        <asp:Label ID="Label1" runat="server" Text="Tipo de documento :"></asp:Label>
+        <asp:Label ID="Label1" runat="server" Text="Tipo de documento* :"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server">
             <asp:ListItem>Selecciona</asp:ListItem>
             <asp:ListItem Value="1">DNI</asp:ListItem>
@@ -51,25 +51,25 @@
             ControlToValidate="DropDownList1" ErrorMessage="Ingrese un tipo de documento"></asp:RequiredFieldValidator>
         <br />
         <br />
-        <asp:Label ID="Label2" runat="server" Text="Numero de documento : "></asp:Label>
+        <asp:Label ID="Label2" runat="server" Text="Numero de documento* : "></asp:Label>
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
             ControlToValidate="TextBox2" ErrorMessage="Ingrese el numero de documento"></asp:RequiredFieldValidator>
         <br />
         <br />
-        <asp:Label ID="Label3" runat="server" Text="Nombres : "></asp:Label>
+        <asp:Label ID="Label3" runat="server" Text="Nombres* : "></asp:Label>
         <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
             ControlToValidate="TextBox3" ErrorMessage="Ingrese su nombre"></asp:RequiredFieldValidator>
         <br />
         <br />
-        <asp:Label ID="Label4" runat="server" Text="Apellido Paterno : "></asp:Label>
+        <asp:Label ID="Label4" runat="server" Text="Apellido Paterno* : "></asp:Label>
         <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
             ErrorMessage="Ingrese su apellido" ControlToValidate="TextBox4"></asp:RequiredFieldValidator>
         <br />
         <br />
-        <asp:Label ID="Label5" runat="server" Text="Apellido Materno : "></asp:Label>
+        <asp:Label ID="Label5" runat="server" Text="Apellido Materno* : "></asp:Label>
         <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
             ErrorMessage="Ingrese su apellido" ControlToValidate="TextBox5"></asp:RequiredFieldValidator>
@@ -83,7 +83,7 @@
         <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Label ID="Label8" runat="server" Text="Correo : "></asp:Label>
+        <asp:Label ID="Label8" runat="server" Text="Correo* : "></asp:Label>
         <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
             ErrorMessage="Ingrese su correo" ControlToValidate="TextBox8"></asp:RequiredFieldValidator>
@@ -96,14 +96,14 @@
         <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Label ID="Label10" runat="server" Text="Usuario : "></asp:Label>
+        <asp:Label ID="Label10" runat="server" Text="Usuario* : "></asp:Label>
         <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" 
             ErrorMessage="Ingrese un usuario" ControlToValidate="TextBox10"></asp:RequiredFieldValidator>
         <br />
       
         <br />
-        <asp:Label ID="Label11" runat="server" Text="Password :"></asp:Label>
+        <asp:Label ID="Label11" runat="server" Text="Password* :"></asp:Label>
         <asp:TextBox ID="TextBox11" TextMode="Password" runat="server"></asp:TextBox>
         <asp:CompareValidator ID="CompareValidator1" runat="server" 
             ControlToCompare="TextBox11" ControlToValidate="TextBox12" 
@@ -112,13 +112,13 @@
             ControlToValidate="TextBox11" ErrorMessage="Ingrese un password"></asp:RequiredFieldValidator>
         <br />
         <br />
-        <asp:Label ID="Label12" runat="server" Text="Confirmar Password :"></asp:Label>
+        <asp:Label ID="Label12" runat="server" Text="Confirmar Password *:"></asp:Label>
         <asp:TextBox ID="TextBox12" TextMode="Password" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" 
             ControlToValidate="TextBox12" ErrorMessage="Repita el password"></asp:RequiredFieldValidator>
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Registrar Participante "  />
+        <asp:Button ID="Button1" runat="server" Text="Registrar Participante* "  />
     
 
 

@@ -25,13 +25,11 @@
       </div>
       <nav>
         <ul class="sf-menu" id="nav">
-          <li class="selected"><a href="index.html">Home</a></li>
+          <li class="selected"><a href="index.aspx">Home</a></li>
           <li><a href="about.html">Sobre Nosotros</a></li>
           <li><a href="portfolio.html">Eventos</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="#">Example Drop Down</a>
           
-          </li>
           <li><a href="RegistrarParticipante.aspx">Registrate</a></li>
           
           <li><a href="Login.aspx">Login</a></li>
@@ -39,20 +37,13 @@
       </nav>
     </header>
     <div id="site_content">
-      <div id="sidebar_container">
-        <div class="gallery">
-          <ul class="images">
-            <li class="show"><img width="450" height="450" src="images/1.jpg" alt="photo_one" /></li>
-            <li><img width="450" height="450" src="images/2.jpg" alt="photo_two" /></li>
-            <li><img width="450" height="450" src="images/3.jpg" alt="photo_three" /></li>
-            <li><img width="450" height="450" src="images/4.jpg" alt="photo_four" /></li>
-            <li><img width="450" height="450" src="images/5.jpg" alt="photo_five" /></li>
-          </ul>
-        </div>
-      </div>
       <div id="content">
-        <h1>Welcome to photo_style_two</h1>
-        <p>This standards compliant, fixed width website template is released as an 'open source' design (under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which means that you are free to use it for anything you want (including modifying and amending it). All I ask is that you leave the 'design from css3templates.co.uk' link in the footer of the template. All of the photos were taken by me - use as you wish.</p>
+        <h1>Bienvenidos</h1>
+        <p><span style="color: rgb(93, 93, 93); font-family: arial; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(252, 253, 244); display: inline !important; float: none;">
+            EventSystem nos ofrece un nuevo sistema de gestión de eventos vía web. Con él 
+            podremos inscribirnos a diferentes eventos realizados en la Facultad de 
+            Ingenieria y arquitectura de la USMP, ver horarios, consultar detalles de los 
+            eventos y mucho mas.</span></p>
         <h3>Browser Compatibility</h3>
         <p>This template has been tested in the following browsers:</p>
         <ul>

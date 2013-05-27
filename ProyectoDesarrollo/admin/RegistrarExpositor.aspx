@@ -167,7 +167,7 @@
             <section>
                 <header class="container_12 clearfix">
                     <div class="grid_12">
-                        <h1>Manener Expositor</h1>
+                        <h1>Registrar Expositor</h1>
                     </div>
                 </header>
               <section class="container_12 clearfix">

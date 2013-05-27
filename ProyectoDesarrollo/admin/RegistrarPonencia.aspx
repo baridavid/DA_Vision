@@ -167,7 +167,7 @@
             <section>
                 <header class="container_12 clearfix">
                     <div class="grid_12">
-                        <h1>Mantener Ponencia</h1>
+                        <h1>Registrar Ponencia</h1>
                     </div>
                 </header>
               <section class="container_12 clearfix">

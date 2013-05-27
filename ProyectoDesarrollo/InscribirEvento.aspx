@@ -6,9 +6,9 @@
 <head runat="server">
    <link rel="stylesheet" href="system/css/css.css" type="text/css" media="screen" charset="utf-8"/>
 <link rel="stylesheet" href="system/css/reset.css" type="text/css" media="screen" charset="utf-8"/>
-<link href="system/css/wufo/structure.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8"> 
-<link href="system/css/wufo/form.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8">
-<link href="system/css/wufo/theme.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8">
+<link href="system/css/wufo/structure.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" /> 
+<link href="system/css/wufo/form.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
+<link href="system/css/wufo/theme.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
 <script type='text/javascript' src="system/funciones.js" ></script>
 <script type="text/javascript" src="system/libs/base64.js"></script>
 <script type="text/javascript" src="system/libs/sprintf.js"></script>

@@ -163,6 +163,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="admin\MantenerEvento.aspx" />
+    <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EventSystem.aspx.designer.vb">
@@ -259,6 +260,13 @@
     </Compile>
     <Compile Include="admin\RegistrarPonencia.aspx.vb">
       <DependentUpon>RegistrarPonencia.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.vb">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.vb">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
