@@ -10,7 +10,8 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="index/css/style.css" />
   <!-- modernizr enables HTML5 elements and feature detects -->
-  <script type="text/javascript" src="index/js/modernizr-1.5.min.js"></script>
+  <script type="text/javascript" src="index/js/modernizr-1.5.min.js"></script><
+  
 </head>
 <body>
   <div id="main">
@@ -42,8 +43,9 @@
 
         <asp:Label ID="Label1" runat="server" Text="Tipo de documento"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server">
-            <asp:ListItem>DNI</asp:ListItem>
-            <asp:ListItem>Pasaporte</asp:ListItem>
+            <asp:ListItem>Selecciona</asp:ListItem>
+            <asp:ListItem Value="1">DNI</asp:ListItem>
+            <asp:ListItem Value="2">Pasaporte</asp:ListItem>
         </asp:DropDownList>
         <br />
         <asp:Label ID="Label2" runat="server" Text="Numero de documento"></asp:Label>
@@ -79,11 +81,11 @@
         <asp:Label ID="Label12" runat="server" Text="Confirmar Password"></asp:Label>
         <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Registrar Participante" />
+        <asp:Button ID="Button1" runat="server" Text="Registrar Participante"  />
     
 
 
-        <asp:Label ID="l_mensaje" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="l_mensaje" runat="server" Text=""></asp:Label>
     
 
 

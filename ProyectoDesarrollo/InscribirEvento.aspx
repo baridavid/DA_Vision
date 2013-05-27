@@ -20,11 +20,11 @@
     <style type="text/css">
         .style3
         {
-            width: 214px;
+            width: 190px;
         }
         .style4
         {
-            width: 284px;
+            width: 250px;
         }
     </style>
 
@@ -97,7 +97,8 @@
                 </tr>
                 <tr>
                     <td class="style3">
-                        Escuela : <td class="style4">
+                        Escuela :</td>
+                    <td class="style4">
                         &nbsp;</td>
                     <td>
                         &nbsp;</td>
@@ -133,6 +134,9 @@
                         &nbsp;</td>
                     <td class="style4">
                         <asp:DropDownList ID="DropDownList1" runat="server">
+                            <asp:ListItem>Seleccione</asp:ListItem>
+                            <asp:ListItem>1</asp:ListItem>
+                            <asp:ListItem>2</asp:ListItem>
                         </asp:DropDownList>
                     </td>
                     <td>
