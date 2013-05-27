@@ -188,7 +188,8 @@
                                 
                                 
                                 SelectCommand="SELECT cod_exp ,tip_doc, num_doc, nom_exp, ape_pat_exp, ape_mat_exp, pais_exp FROM expositor" 
-                                DeleteCommand="DELETE FROM expositor WHERE cod_exp=@cod_exp">
+                                DeleteCommand="DELETE FROM expositor WHERE cod_exp=@cod_exp" 
+                                UpdateCommand="UPDATE expositor set tip_doc=@tip_doc, num_doc=@num_doc, nom_exp=@nom_exp, ape_pat_exp=@ape_pat_exp, ape_mat_exp=@ape_mat_exp, pais_exp=@pais_exp WHERE cod_exp=@cod_exp">
                             </asp:SqlDataSource>
                         
 
@@ -196,7 +197,7 @@
 
 <asp:GridView ID="GridView1" runat="server" CellPadding="4" DataSourceID="SqlDataSource1" 
                                 ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" 
-                                DataKeyNames="cod_exp" CellSpacing="3" Width="500px">
+                                DataKeyNames="cod_exp" CellSpacing="3" Width="300px">
     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
     <Columns>
         <asp:BoundField DataField="cod_exp" HeaderText="cod_exp" ReadOnly="True" 

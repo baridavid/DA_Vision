@@ -192,8 +192,9 @@
                                 
                                 
                                 
-                                SelectCommand="SELECT id_pon, cod_exp_pon, cod_eve_pon, fech_ini_pon, fech_fin_pon, nom_pon, desc_pon, tipo_pon, dirigido_a_pon, est_pon, id_amb_pon, id_req_pon FROM ponencia" 
-                                DeleteCommand="DELETE FROM ponencia where id_pon=@id_pon">
+                                SelectCommand="SELECT id_pon, cod_exp_pon, cod_eve_pon, fech_ini_pon, fech_fin_pon, nom_pon, desc_pon, tipo_pon, dirigido_a_pon, est_pon FROM ponencia" 
+                                DeleteCommand="DELETE FROM ponencia where id_pon=@id_pon" 
+                                UpdateCommand="UPDATE ponencia set cod_exp_pon=@cod_exp_pon, cod_eve_pon=@cod_eve_pon, fech_ini_pon=@fech_ini_pon, fech_fin_pon=@fech_fin_pon, nom_pon=@nom_pon, desc_pon=@desc_pon, tipo_pon=@tipo_pon, dirigido_a_pon=@dirigido_a_pon, est_pon=@est_pon WHERE id_pon=@id_pon">
                             </asp:SqlDataSource>
                         
 
@@ -232,10 +233,6 @@
                                         SortExpression="dirigido_a_pon" />
                                     <asp:BoundField DataField="est_pon" HeaderText="est_pon" 
                                         SortExpression="est_pon" />
-                                    <asp:BoundField DataField="id_amb_pon" HeaderText="id_amb_pon" 
-                                        SortExpression="id_amb_pon" />
-                                    <asp:BoundField DataField="id_req_pon" HeaderText="id_req_pon" 
-                                        SortExpression="id_req_pon" />
                                     <asp:CommandField ShowEditButton="True" />
                                     <asp:CommandField ShowDeleteButton="True" />
                                 </Columns>

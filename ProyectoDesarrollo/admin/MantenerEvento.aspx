@@ -187,7 +187,8 @@
                                 ProviderName="<%$ ConnectionStrings:dis_eventoConnectionString.ProviderName %>" 
                                 
                                 SelectCommand="SELECT id_eve, nom_eve, fech_ini_eve, fech_fin_eve, est_eve FROM evento" 
-                                DeleteCommand="DELETE FROM evento WHERE id_eve=@id_eve">
+                                DeleteCommand="DELETE FROM evento WHERE id_eve=@id_eve" 
+                                UpdateCommand="UPDATE evento set nom_eve=@nom_eve, fech_ini_eve=@fech_ini_eve, fech_fin_eve=@fech_fin_eve, est_eve=@est_eve WHERE id_eve=@id_eve">
                             </asp:SqlDataSource>
                         
 
