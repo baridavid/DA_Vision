@@ -66,6 +66,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	padding: 10px 0;
 	min-width: 60%;
 	float: left;
+    width: 621px;
 }
 .sidebar2 {
 	float: left;
