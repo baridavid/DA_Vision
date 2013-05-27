@@ -15,8 +15,8 @@ Public Class RegistrarEvento
         Dim conexion As New MySqlConnection
         Dim comando As New MySqlCommand
 
-        Dim fechas As Array = TextBox2.Text.Split("-")
-        Dim fecha As String = fechas(0) & fechas(1) & fechas(2)
+        'Dim fechas As Array = TextBox2.Text.Split("-")
+        ' Dim fecha As String = fechas(0) & fechas(1) & fechas(2)
 
         Dim fechas2 As Array = TextBox3.Text.Split("-")
         Dim fecha2 As String = fechas2(0) & fechas2(1) & fechas2(2)
@@ -35,9 +35,9 @@ Public Class RegistrarEvento
 
 
         Dim p1 As New MySqlParameter("@nom_eve", TextBox1.Text)
-        Dim p2 As New MySqlParameter("@fech_ini_eve", fecha)
-        Dim p3 As New MySqlParameter("@fech_fin_eve", fecha2)
-        Dim p4 As New MySqlParameter("@est_eve", TextBox4.Text)
+        Dim p2 As New MySqlParameter("@fech_ini_eve", TextBox2.Text)
+        Dim p3 As New MySqlParameter("@fech_fin_eve", TextBox3.Text)
+        Dim p4 As New MySqlParameter("@est_eve", DropDownList1.SelectedValue)
 
 
 
