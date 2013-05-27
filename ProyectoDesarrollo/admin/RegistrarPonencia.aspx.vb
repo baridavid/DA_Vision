@@ -37,5 +37,24 @@ Public Class RegistrarPonencia
         'Dim p9 As New MySqlParameter("@desc_pon", TextBox6.Text)
 
 
+        comando.Parameters.Add(p1)
+        comando.Parameters.Add(p2)
+        comando.Parameters.Add(p3)
+        comando.Parameters.Add(p4)
+        comando.Parameters.Add(p5)
+        comando.Parameters.Add(p6)
+        comando.Parameters.Add(p7)
+
+        comando.Connection.Open()
+
+        Dim resultado As Integer = comando.ExecuteNonQuery()
+        comando.Connection.Close()
+
+        If resultado = 1 Then
+            l_mensaje.Text = "Producto guardado"
+        Else
+            l_mensaje.Text = "Ocurrió un error"
+        End If
+
     End Sub
 End Class

@@ -134,7 +134,7 @@
                             <li><a href="#">Settings</a></li> 
                             <li><a href="#">Users</a></li> 
                             <li><a href="#">Groups</a></li> 
-                            <li><a href="#">Signout</a></li> 
+                            <li><a href="../index.aspx">Signout</a></li> 
                         </ul>
                     </li> 
 				</ul> 

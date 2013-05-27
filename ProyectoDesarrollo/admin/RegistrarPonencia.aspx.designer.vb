@@ -221,6 +221,15 @@ Partial Public Class RegistrarPonencia
     Protected WithEvents TextBox7 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''l_mensaje control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents l_mensaje As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Button1 control.
     '''</summary>
     '''<remarks>

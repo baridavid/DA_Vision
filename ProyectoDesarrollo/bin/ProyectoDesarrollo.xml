@@ -790,6 +790,14 @@ TextBox7 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarPonencia.l_mensaje">
+	<summary>
+l_mensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ProyectoDesarrollo.RegistrarPonencia.Button1">
 	<summary>
 Button1 control.

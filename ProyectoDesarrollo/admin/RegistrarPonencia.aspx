@@ -18,14 +18,18 @@
         <asp:Label ID="Label3" runat="server" Text="Fecha de inicio :"></asp:Label>
         <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
         <br />
+        <br />
         <asp:Label ID="Label4" runat="server" Text="Fecha de fin :"></asp:Label>
         <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+        <br />
         <br />
         <asp:Label ID="Label5" runat="server" Text="Nombre de ponencia :"></asp:Label>
         <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
         <br />
+        <br />
         <asp:Label ID="Label6" runat="server" Text="Descripcion :"></asp:Label>
         <asp:TextBox ID="TextBox6" runat="server" Height="100px" Width="300px" MaxLength="10" Columns="50" Rows="12" TextMode="MultiLine"></asp:TextBox>
+        <br />
         <br />
         <asp:Label ID="Label7" runat="server" Text="Tipo :"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server">
@@ -34,6 +38,7 @@
             <asp:ListItem Value="2">Taller</asp:ListItem>
             <asp:ListItem Value="3">Seminario</asp:ListItem>
         </asp:DropDownList>
+        <br />
         <br />
         <asp:Label ID="Label8" runat="server" Text="Dirigido a :"></asp:Label>
         <asp:DropDownList ID="DropDownList2" runat="server">
@@ -44,6 +49,7 @@
             <asp:ListItem Value="4">Arquitectura</asp:ListItem>
         </asp:DropDownList>
         <br />
+        <br />
         <asp:Label ID="Label9" runat="server" Text="Estado :"></asp:Label>
         <asp:DropDownList ID="DropDownList3" runat="server">
             <asp:ListItem>Selecciona</asp:ListItem>
@@ -52,6 +58,7 @@
             <asp:ListItem Value="3">Eliminada</asp:ListItem>
         </asp:DropDownList>
         <br />
+        <br />
         <asp:Label ID="Label10" runat="server" Text="Ambiente :"></asp:Label>
         <asp:DropDownList ID="DropDownList6" runat="server">
             <asp:ListItem>Selecciona</asp:ListItem>
@@ -59,6 +66,7 @@
             <asp:ListItem>Laboratorio</asp:ListItem>
             <asp:ListItem>Coliseo</asp:ListItem>
         </asp:DropDownList>
+        <br />
         <br />
         <asp:Label ID="Label11" runat="server" Text="Cod ambiente :"></asp:Label>
         <asp:DropDownList ID="DropDownList5" runat="server">
@@ -72,8 +80,14 @@
         </asp:DropDownList>
     
         <br />
+    
+        <br />
         <asp:Label ID="Label12" runat="server" Text="Capacidad"></asp:Label>
         <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+    
+        <asp:Label ID="l_mensaje" runat="server" Text="Label"></asp:Label>
+    
+        <br />
     
         <br />
         <asp:Button ID="Button1" runat="server" Text="Registrar Ponencia" />
