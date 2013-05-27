@@ -70,6 +70,14 @@ DropDownList1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RequiredFieldValidator7">
+	<summary>
+RequiredFieldValidator7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ProyectoDesarrollo.RegistrarParticipante.Label2">
 	<summary>
 Label2 control.
@@ -81,6 +89,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ProyectoDesarrollo.RegistrarParticipante.TextBox2">
 	<summary>
 TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -102,6 +118,14 @@ TextBox3 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RequiredFieldValidator2">
+	<summary>
+RequiredFieldValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ProyectoDesarrollo.RegistrarParticipante.Label4">
 	<summary>
 Label4 control.
@@ -118,6 +142,14 @@ TextBox4 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RequiredFieldValidator3">
+	<summary>
+RequiredFieldValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ProyectoDesarrollo.RegistrarParticipante.Label5">
 	<summary>
 Label5 control.
@@ -129,6 +161,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ProyectoDesarrollo.RegistrarParticipante.TextBox5">
 	<summary>
 TextBox5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RequiredFieldValidator4">
+	<summary>
+RequiredFieldValidator4 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -182,6 +222,22 @@ TextBox8 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RequiredFieldValidator5">
+	<summary>
+RequiredFieldValidator5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RegularExpressionValidator1">
+	<summary>
+RegularExpressionValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ProyectoDesarrollo.RegistrarParticipante.Label9">
 	<summary>
 Label9 control.
@@ -214,6 +270,14 @@ TextBox10 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RequiredFieldValidator6">
+	<summary>
+RequiredFieldValidator6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ProyectoDesarrollo.RegistrarParticipante.Label11">
 	<summary>
 Label11 control.
@@ -238,6 +302,14 @@ CompareValidator1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RequiredFieldValidator8">
+	<summary>
+RequiredFieldValidator8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ProyectoDesarrollo.RegistrarParticipante.Label12">
 	<summary>
 Label12 control.
@@ -249,6 +321,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ProyectoDesarrollo.RegistrarParticipante.TextBox12">
 	<summary>
 TextBox12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.RegistrarParticipante.RequiredFieldValidator9">
+	<summary>
+RequiredFieldValidator9 control.
 </summary>
 	<remarks>
 Auto-generated field.

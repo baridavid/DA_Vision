@@ -47,6 +47,8 @@
             <asp:ListItem Value="1">DNI</asp:ListItem>
             <asp:ListItem Value="2">Pasaporte</asp:ListItem>
         </asp:DropDownList>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" 
+            ControlToValidate="DropDownList1" ErrorMessage="Ingrese un tipo de documento"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Label ID="Label2" runat="server" Text="Numero de documento : "></asp:Label>
@@ -106,10 +108,14 @@
         <asp:CompareValidator ID="CompareValidator1" runat="server" 
             ControlToCompare="TextBox11" ControlToValidate="TextBox12" 
             ErrorMessage="El password debe ser el mismo"></asp:CompareValidator>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" 
+            ControlToValidate="TextBox11" ErrorMessage="Ingrese un password"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Label ID="Label12" runat="server" Text="Confirmar Password :"></asp:Label>
         <asp:TextBox ID="TextBox12" TextMode="Password" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" 
+            ControlToValidate="TextBox12" ErrorMessage="Repita el password"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Button ID="Button1" runat="server" Text="Registrar Participante "  />
