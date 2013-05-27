@@ -31,7 +31,7 @@
 
     <div id="wrapper">
         <header>
-            <h1><a href="http://vivantdesigns.com">CleanSlate Admin</a></h1>
+            <h1><a href="http://vivantdesigns.com">Administrador</a></h1>
             <nav>
 				<ul id="main-navigation" class="clearfix"> 
 					<li class="dropdown active"> 
@@ -168,7 +168,7 @@
             <section>
                 <header class="container_12 clearfix">
                     <div class="grid_12">
-                        <h1>Dashboard</h1>
+                        <h1>Mantener Ponencia</h1>
                     </div>
                 </header>
               <section class="container_12 clearfix">
@@ -209,7 +209,7 @@
 
                             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
                                 CellPadding="4" DataKeyNames="id_pon" DataSourceID="SqlDataSource1" 
-                                ForeColor="#333333" GridLines="None">
+                                ForeColor="#333333" GridLines="None" CellSpacing="3" Width="600px">
                                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                                 <Columns>
                                     <asp:BoundField DataField="id_pon" HeaderText="id_pon" InsertVisible="False" 

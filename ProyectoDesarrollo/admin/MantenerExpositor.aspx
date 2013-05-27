@@ -31,7 +31,7 @@
 
     <div id="wrapper">
         <header>
-            <h1><a href="http://vivantdesigns.com">CleanSlate Admin</a></h1>
+            <h1><a href="http://vivantdesigns.com">Administrador</a></h1>
             <nav>
 				<ul id="main-navigation" class="clearfix"> 
 					<li class="dropdown active"> 
@@ -168,7 +168,7 @@
             <section>
                 <header class="container_12 clearfix">
                     <div class="grid_12">
-                        <h1>Dashboard</h1>
+                        <h1>Manener Expositor</h1>
                     </div>
                 </header>
               <section class="container_12 clearfix">
@@ -196,7 +196,7 @@
 
 <asp:GridView ID="GridView1" runat="server" CellPadding="4" DataSourceID="SqlDataSource1" 
                                 ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" 
-                                DataKeyNames="cod_exp">
+                                DataKeyNames="cod_exp" CellSpacing="3" Width="500px">
     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
     <Columns>
         <asp:BoundField DataField="cod_exp" HeaderText="cod_exp" ReadOnly="True" 
