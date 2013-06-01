@@ -162,9 +162,17 @@
                     <td>
                         &nbsp;</td>
                 </tr>
+                <tr>
+                     <td><asp:DropDownList ID="DropDownList2" runat="server">
+                            <asp:ListItem>Seleccione</asp:ListItem>
+                            <asp:ListItem>Vision 2013</asp:ListItem>
+                            <asp:ListItem>Android Lima</asp:ListItem>
+                    </asp:DropDownList></td>
+                </tr>
             </table>
         </p>
         <p>&nbsp;</p>
+        <asp:Label ID="l_mensaje" runat="server" Text="Label"></asp:Label>
     </div>
     </form>
 	
