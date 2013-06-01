@@ -7,6 +7,10 @@ Public Class InscribirEvento
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        RadioButton1.GroupName = "radio1"
+        RadioButton2.GroupName = "radio1"
+
         Label1.Text = Session("cod")
         Label4.Text = Session("escuela")
     End Sub
