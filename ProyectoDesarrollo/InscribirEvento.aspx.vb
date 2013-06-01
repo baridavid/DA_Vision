@@ -12,6 +12,11 @@ Public Class InscribirEvento
         RadioButton2.GroupName = "radio1"
 
         Label1.Text = Session("cod")
+        If Session("tip_usu") = 1 Or Session("tip_usu") = 2 Then
+            Label3.Text = "Interno"
+        Else
+            Label3.Text = "Externo"
+        End If
         'Label4.Text = Session("escuela")
     End Sub
 
