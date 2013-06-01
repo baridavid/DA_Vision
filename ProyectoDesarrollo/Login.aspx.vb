@@ -30,11 +30,12 @@ Public Class Login
         Dim dr As MySqlDataReader = comando.ExecuteReader()
         If dr.Read Then
             Session("cod") = dr.Item("cod_user")
-            Session("Nombre") = dr.Item("nom_user")
+            Session("nombre") = dr.Item("nom_user")
             Session("apePat") = dr.Item("ape_pat_user")
             Session("apeMat") = dr.Item("ape_mat_user")
             Session("codigoEst") = dr.Item("cod_estud")
             Session("escuela") = dr.Item("esc_estud")
+            Session("tipo_usuario") = dr.Item("tip_usu")
             FormsAuthentication.RedirectFromLoginPage(dr.Item("cod_user"), False)
 
         Else
