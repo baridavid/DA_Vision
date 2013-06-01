@@ -6,15 +6,7 @@ ProyectoDesarrollo
 </name>
 </assembly>
 <members>
-<member name="F:ProyectoDesarrollo.WebForm2.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.RegistrarExpositor.form2">
+<member name="F:ProyectoDesarrollo.RegistrarExpositor.form2">
 	<summary>
 form2 control.
 </summary>
@@ -247,6 +239,38 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ProyectoDesarrollo.InscribirEvento.RadioButton1">
 	<summary>
 RadioButton1 control.
@@ -266,6 +290,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ProyectoDesarrollo.InscribirEvento.DropDownList1">
 	<summary>
 DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.TextBox1">
+	<summary>
+TextBox1 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -298,6 +330,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ProyectoDesarrollo.WebForm1.GridView1">
 	<summary>
 GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.WebForm2.form1">
+	<summary>
+form1 control.
 </summary>
 	<remarks>
 Auto-generated field.

@@ -89,15 +89,18 @@
                 </tr>
                 <tr>
                     <td class="style3">
-                        Codigo :</td>
+                        Codigo : <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></td>
                     <td class="style4">
-                        Participante :</td>
+                        Participante : 
+                        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></td>
                     <td>
-                        Estado: </td>
+                        Estado: 
+                        <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label></td>
                 </tr>
                 <tr>
                     <td class="style3">
-                        Escuela :</td>
+                        Escuela : 
+                        <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label></td>
                     <td class="style4">
                         &nbsp;</td>
                     <td>
@@ -115,7 +118,7 @@
                     <td class="style3">
                         &nbsp;</td>
                     <td class="style4">
-                        <asp:RadioButton ID="RadioButton1" runat="server" />
+                        <asp:RadioButton ID="RadioButton1"  runat="server" />
                         Contado</td>
                     <td>
                         &nbsp;</td>
@@ -124,7 +127,7 @@
                     <td class="style3">
                         &nbsp;</td>
                     <td class="style4">
-                        <asp:RadioButton ID="RadioButton2" runat="server" />
+                        <asp:RadioButton ID="RadioButton2" n runat="server" />
                         Cuotas</td>
                     <td>
                         &nbsp;</td>
@@ -146,7 +149,7 @@
                     <td class="style3">
                         &nbsp;</td>
                     <td class="style4">
-                        <input id="Text1" type="text" value="200" readonly /></td>
+                        <asp:TextBox ID="TextBox1" value="200" readonly runat="server"></asp:TextBox></td>
                     <td>
                         &nbsp;</td>
                 </tr>
