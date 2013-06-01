@@ -18,10 +18,10 @@ Public Class InscribirEvento
             Label3.Text = "Externo"
         End If
 
-        lbl_apepat = Session("apePat") & " "
-        lbl_apemat = Session("apeMat") & " "
-        lbl_nom = Session("nombre")
-        'Label4.Text = Session("escuela")
+        lbl_apepat.Text = Session("apePat")
+        lbl_apemat.Text = Session("apeMat")
+        lbl_nom.Text = Session("nombre")
+        Label4.Text = Session("escuela")
     End Sub
 
     Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click
@@ -38,11 +38,11 @@ Public Class InscribirEvento
         comando.CommandType = CommandType.Text
 
         comando.CommandText = "insert into recibo(id_eve_rec, cod_user_rec, voucher, nro_inscripcion, mod_pago, nro_cuotas, monto) " & _
-            " values (@cod_user_rec, @id_eve_rec, @voucher, @nro_inscripcion, @mod_pago, @nro_cuotas, @monto)"
+            " values (@id_eve_rec, @cod_user_rec, @voucher, @nro_inscripcion, @mod_pago, @nro_cuotas, @monto)"
         comando.Connection = conexion
 
-        Dim p1 As New MySqlParameter("@id_eve_rec", "3")
-        Dim p2 As New MySqlParameter("@cod_user_rec", Session("cod"))
+        Dim p1 As New MySqlParameter("@id_eve_rec", "2")
+        Dim p2 As New MySqlParameter("@cod_user_rec", "10")
         Dim p3 As New MySqlParameter("@voucher", "pendiente")
         Dim p4 As New MySqlParameter("@nro_inscripcion", CStr(numero))
         Dim p5 As New MySqlParameter("@mod_pago", RadioButton1.Text)

@@ -1,10 +1,10 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="EventSystem.aspx.vb" Inherits="ProyectoDesarrollo.EventSystem" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="GenerarQR.aspx.vb" Inherits="ProyectoDesarrollo.GenerarQR" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<link rel="stylesheet" href="system/css/css.css" type="text/css" media="screen" charset="utf-8"/>
+   <link rel="stylesheet" href="system/css/css.css" type="text/css" media="screen" charset="utf-8"/>
 <link rel="stylesheet" href="system/css/reset.css" type="text/css" media="screen" charset="utf-8"/>
 <link href="system/css/wufo/structure.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8"> 
 <link href="system/css/wufo/form.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8">
@@ -16,11 +16,15 @@
 <script type='text/javascript' src="system/script.js"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
     <title>EventSystem</title>
-
-
+    <style type="text/css">
+        .style1
+        {
+            height: 19px;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
+    <div class="container">
 <div class="header"><img src="system/images/cabecera.png" width="1000" height="144" border="0"/> 
   <!-- end .header --></div>
     <div class="sidebar1">
@@ -34,7 +38,7 @@
                           </li>
                           <li><a href="#" class="categoria">Eventos</a>
                                 <ul>
-                                <li><a href="InscribirEvento.aspx">Vision 2013</a></li>
+                                <li><a>Vision 2013</a></li>
                                 <li><a>Google I/O</a></li>
                                 <li><a>hola</a>
                                         <ul>
@@ -64,70 +68,96 @@
 
 <div class="content">
 <div id="container" class="ltr">
-			
-	<form id="form6" name="form6" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="">
-		<header id="header" class="info">
-		<h2>Bienvenidos! Eventos FIA ! </h2>
-		<div>SGE es un proyecto para el curso de DIS enfocado a las necesitades de nuestra facultad.</div>
-		</header>
-			
-		<ul>
-		<li id="foli112" class="notranslate first section      ">
-		<section>
-		<h3 id="title112">
-		Bienvenido de nuevo <b></b><br />
-		</h3>
-		</section>
-		</li>
-			
-			<li id="foli457" class="notranslate section      ">
-			<section>
-			<h3 id="title457">
-			Porfavor, ayudenos a evaluar el Sistema.<br />
-			<br />
-			¿En términos generales, que le parecio el Sistema?
-			</h3>
-			</section>
-			</li><li id="foli458" class="notranslate       ">
-			<label class="desc" id="title458" for="Field458">
-			Seleccionar una opción
-			</label>
-			<div>
-			<select id="Field458" name="Field458" class="field select medium" tabindex="1" > 
-			<option value="Seleccione" selected="selected">
-			Seleccione
-			</option>
-			<option value="Muy Bueno" >
-			Muy Bueno
-			</option>
-			<option value="Bueno" >
-			Bueno
-			</option>
-			<option value="Regular" >
-			Regular
-			</option>
-			<option value="Malo" >
-			Malo
-			</option>
-			<option value="Muy Malo" >
-			Muy Malo
-			</option>
-			</select>
-			</div>
-			</li> <li class="buttons ">
-			<div>
-			
-			                    <input id="saveForm" name="saveForm" class="btTxt submit" 
-			    type="submit" value="Enviar"
-			 /></div>
-			</li>
-			
-			<li class="hide">
-			<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-			<input type="hidden" id="idstamp" name="idstamp" value="UMNzPMBJAKJDRS+yIF9KnTpg/3fM+9os4GLiBNShDgc=" />
-			</li>
-			</ul>
-			</form> 
+			<form id="form1" runat="server">
+    <div>
+    <h1>Genera de tu codigo QR!!</h1>
+        <p>
+            <table style="width:91%;">
+                <tr>
+                    <td class="style3">
+                        &nbsp;</td>
+                    <td class="style4">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style1">
+                        Nombre : </td>
+                    <td class="style1">
+                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        </td>
+                    <td class="style1">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style3">
+                        Apellido paterno: </td>
+                    <td class="style4">
+                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    </td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style3">
+                        Apellido materno:</td>
+                    <td class="style4">
+                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                    </td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style3">
+                        &nbsp;</td>
+                    <td class="style4">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style3">
+                        &nbsp;</td>
+                    <td class="style4">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style3">
+                        &nbsp;</td>
+                    <td class="style4">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style3">
+                        &nbsp;</td>
+                    <td class="style4">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style3">
+                        &nbsp;</td>
+                    <td class="style4">
+                        <asp:Button ID="Button1" runat="server" Text="Inscribirse" />
+                    </td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                     <td>&nbsp;</td>
+                </tr>
+            </table>
+        </p>
+        <p>&nbsp;</p>
+    </div>
+    </form>
+	
 			
 			</div><!--container-->
 <!-- end .content --></div>
@@ -140,6 +170,5 @@
 	   <img src="system/images/pie.png" style="position:absolute; left:0px;" width="1000" height="72"/>
 	 </div>
 <!-- end .container --></div>
-
 </body>
 </html>

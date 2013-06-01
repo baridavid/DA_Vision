@@ -93,7 +93,8 @@
     <Content Include="admin\css\reset.css" />
     <Content Include="admin\css\style.css" />
     <Content Include="admin\css\themes\lightblue\style.css" />
-    <Content Include="EventSystem.aspx" />
+    <Content Include="admin\Login.aspx" />
+    <Content Include="usuario\EventSystem.aspx" />
     <Content Include="admin\images\ajax-loader-eeeeee.gif" />
     <Content Include="admin\images\arrow-down.png" />
     <Content Include="admin\images\arrow-right.png" />
@@ -103,6 +104,7 @@
     <Content Include="admin\images\profile-image-bg.png" />
     <Content Include="admin\images\profile-image.png" />
     <Content Include="admin\images\sidebar-shadow.png" />
+    <Content Include="usuario\GenerarQR.aspx" />
     <Content Include="index.aspx" />
     <Content Include="index\css\style.css" />
     <Content Include="index\documentation\index.html" />
@@ -133,7 +135,7 @@
     <Content Include="admin\lib\jqplot\jquery.jqplot.min.js" />
     <Content Include="admin\lib\jqplot\plugins\jqplot.barRenderer.min.js" />
     <Content Include="admin\lib\jqplot\plugins\jqplot.categoryAxisRenderer.min.js" />
-    <Content Include="InscribirEvento.aspx" />
+    <Content Include="usuario\InscribirEvento.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="admin\MantenerExpositor.aspx" />
     <Content Include="admin\MantenerPonencia.aspx" />
@@ -141,20 +143,20 @@
     <Content Include="admin\RegistrarExpositor.aspx" />
     <Content Include="RegistrarParticipante.aspx" />
     <Content Include="admin\RegistrarPonencia.aspx" />
-    <Content Include="system\css\css.css" />
-    <Content Include="system\css\reset.css" />
-    <Content Include="system\css\wufo\form.css" />
-    <Content Include="system\css\wufo\structure.css" />
-    <Content Include="system\css\wufo\theme.css" />
-    <Content Include="system\funciones.js" />
-    <Content Include="system\images\buho.jpg" />
-    <Content Include="system\images\cabecera.png" />
-    <Content Include="system\images\pie.png" />
-    <Content Include="system\jquery-1.7.2.min.js" />
-    <Content Include="system\jquery.min.js" />
-    <Content Include="system\libs\base64.js" />
-    <Content Include="system\libs\sprintf.js" />
-    <Content Include="system\script.js" />
+    <Content Include="usuario\system\css\css.css" />
+    <Content Include="usuario\system\css\reset.css" />
+    <Content Include="usuario\system\css\wufo\form.css" />
+    <Content Include="usuario\system\css\wufo\structure.css" />
+    <Content Include="usuario\system\css\wufo\theme.css" />
+    <Content Include="usuario\system\funciones.js" />
+    <Content Include="usuario\system\images\buho.jpg" />
+    <Content Include="usuario\system\images\cabecera.png" />
+    <Content Include="usuario\system\images\pie.png" />
+    <Content Include="usuario\system\jquery-1.7.2.min.js" />
+    <Content Include="usuario\system\jquery.min.js" />
+    <Content Include="usuario\system\libs\base64.js" />
+    <Content Include="usuario\system\libs\sprintf.js" />
+    <Content Include="usuario\system\script.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -166,11 +168,25 @@
     <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EventSystem.aspx.designer.vb">
+    <Compile Include="admin\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="usuario\EventSystem.aspx.designer.vb">
       <DependentUpon>EventSystem.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EventSystem.aspx.vb">
+    <Compile Include="usuario\EventSystem.aspx.vb">
       <DependentUpon>EventSystem.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="usuario\GenerarQR.aspx.designer.vb">
+      <DependentUpon>GenerarQR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\GenerarQR.aspx.vb">
+      <DependentUpon>GenerarQR.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="index.aspx.designer.vb">
@@ -180,10 +196,10 @@
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="InscribirEvento.aspx.designer.vb">
+    <Compile Include="usuario\InscribirEvento.aspx.designer.vb">
       <DependentUpon>InscribirEvento.aspx</DependentUpon>
     </Compile>
-    <Compile Include="InscribirEvento.aspx.vb">
+    <Compile Include="usuario\InscribirEvento.aspx.vb">
       <DependentUpon>InscribirEvento.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
