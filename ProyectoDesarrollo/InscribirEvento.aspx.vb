@@ -17,6 +17,10 @@ Public Class InscribirEvento
         Else
             Label3.Text = "Externo"
         End If
+
+        lbl_apepat = Session("apePat") & " "
+        lbl_apemat = Session("apeMat") & " "
+        lbl_nom = Session("nombre")
         'Label4.Text = Session("escuela")
     End Sub
 

@@ -92,7 +92,10 @@
                         Codigo : <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></td>
                     <td class="style4">
                         Participante : 
-                        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></td>
+                        <asp:Label ID="lbl_apemat" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lbl_apepat" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="lbl_nom" runat="server" Text="Label"></asp:Label>
+                        </td>
                     <td>
                         Estado: 
                         <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label></td>
