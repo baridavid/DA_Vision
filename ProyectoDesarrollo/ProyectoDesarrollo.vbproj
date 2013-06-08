@@ -14,6 +14,7 @@
     <AssemblyName>ProyectoDesarrollo</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -87,6 +88,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\Asignarexpositor_Ponencia.aspx" />
     <Content Include="admin\css\grids.css" />
     <Content Include="admin\css\jquery.jqplot.min.css" />
     <Content Include="admin\css\jquery.uniform.css" />
@@ -153,9 +155,12 @@
     <Content Include="usuario\system\images\cabecera.png" />
     <Content Include="usuario\system\images\pie.png" />
     <Content Include="usuario\system\jquery-1.7.2.min.js" />
+    <Content Include="usuario\system\jquery.js" />
     <Content Include="usuario\system\jquery.min.js" />
+    <Content Include="usuario\system\jquery.qrcode.js" />
     <Content Include="usuario\system\libs\base64.js" />
     <Content Include="usuario\system\libs\sprintf.js" />
+    <Content Include="usuario\system\qrcode.js" />
     <Content Include="usuario\system\script.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -168,6 +173,13 @@
     <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin\Asignarexpositor_Ponencia.aspx.designer.vb">
+      <DependentUpon>Asignarexpositor_Ponencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Asignarexpositor_Ponencia.aspx.vb">
+      <DependentUpon>Asignarexpositor_Ponencia.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="admin\Login.aspx.designer.vb">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>

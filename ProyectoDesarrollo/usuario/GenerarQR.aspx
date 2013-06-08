@@ -12,10 +12,15 @@
 <script type='text/javascript' src="system/funciones.js" ></script>
 <script type="text/javascript" src="system/libs/base64.js"></script>
 <script type="text/javascript" src="system/libs/sprintf.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
 <script type='text/javascript' src='system/jquery-1.7.2.min.js'></script>
 <script type='text/javascript' src="system/script.js"></script> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
+<script type="text/javascript" src="system/jquery.qrcode.js"></script> 
+<script type='text/javascript' src="system/qrcode.js"></script>
+<script type='text/javascript' src="system/jquery.js"></script>  
+<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
     <title>EventSystem</title>
+   
     <style type="text/css">
         .style1
         {
@@ -110,9 +115,10 @@
                 </tr>
                 <tr>
                     <td class="style3">
-                        &nbsp;</td>
+                        DNI</td>
                     <td class="style4">
-                        &nbsp;</td>
+                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                    </td>
                     <td>
                         &nbsp;</td>
                 </tr>
@@ -144,7 +150,7 @@
                     <td class="style3">
                         &nbsp;</td>
                     <td class="style4">
-                        <asp:Button ID="Button1" runat="server" Text="Inscribirse" />
+                        <asp:Button ID="Button1" runat="server" Text="Generar Codigo QR" />
                     </td>
                     <td>
                         &nbsp;</td>
@@ -155,7 +161,36 @@
             </table>
         </p>
         <p>&nbsp;</p>
+
+
+        <div style="display:none" id="output"></div>
+    
+    
+    <canvas id="micanvas"> </canvas>
+    <fieldset>
+      <legend><b>SELECCIONA EL TIPO DE IMAGEN Y EL RESULTADO SE GENERARA ABAJO<br />
+      (Puede guardar la imagen o generar un pdf)</b>
+      </legend>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <button class="css3button2" id="png">Generar QR </button>
+      
+      
+      
+      <a class="css3button" href="javascript:generarPDF()">GENERAR PDF</a>
+     
+   
+      <a class="css3button" href="javascript:generarPDF2()">GENERAR PDF</a>  <br/>
+     
+    </fieldset>
+    <br />
+    <br />
+  <img src="" id="laimagen"/> </div>
     </div>
+
+
+
+
     </form>
 	
 			
@@ -170,5 +205,46 @@
 	   <img src="system/images/pie.png" style="position:absolute; left:0px;" width="1000" height="72"/>
 	 </div>
 <!-- end .container --></div>
+ <script type="text/javascript">
+
+
+
+     jQuery(function () {
+
+
+         var nombre = $("#TextBox1").val();
+         var apepat = $("#TextBox2").val();
+         var apemat = $("#TextBox3").val();
+         var dni = $("#TextBox4").val();
+         // var cod = $("#cod").val();
+         jQuery('#output').qrcode(nombre + " " + apepat + " " + apemat + "%&" + dni + "%&");
+     })
+</script> 
+<script type="text/javascript">
+
+    var canvas = document.getElementById("micanvas");
+
+
+    var img = document.getElementById("laimagen");
+
+
+
+
+    var png = document.getElementById("png");
+
+    png.addEventListener("click", function () {
+        img.src = canvas.toDataURL("image/png");
+    }, false);
+
+
+
+    var jpeg = document.getElementById("jpeg");
+
+    jpeg.addEventListener("click", function () {
+        img.src = canvas.toDataURL("image/jpeg");
+    }, false);
+
+
+</script>
 </body>
 </html>

@@ -6,7 +6,7 @@ ProyectoDesarrollo
 </name>
 </assembly>
 <members>
-<member name="F:ProyectoDesarrollo.Login1.form1">
+<member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.form1">
 	<summary>
 form1 control.
 </summary>
@@ -14,63 +14,7 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ProyectoDesarrollo.Login1.Login12">
-	<summary>
-Login12 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.GenerarQR.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.GenerarQR.TextBox1">
-	<summary>
-TextBox1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.GenerarQR.TextBox2">
-	<summary>
-TextBox2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.GenerarQR.TextBox3">
-	<summary>
-TextBox3 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.GenerarQR.Button1">
-	<summary>
-Button1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label1">
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label1">
 	<summary>
 Label1 control.
 </summary>
@@ -78,71 +22,7 @@ Label1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.lbl_apemat">
-	<summary>
-lbl_apemat control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.lbl_apepat">
-	<summary>
-lbl_apepat control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.lbl_nom">
-	<summary>
-lbl_nom control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label3">
-	<summary>
-Label3 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label4">
-	<summary>
-Label4 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.RadioButton1">
-	<summary>
-RadioButton1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.RadioButton2">
-	<summary>
-RadioButton2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.DropDownList1">
-	<summary>
-DropDownList1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.TextBox1">
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.TextBox1">
 	<summary>
 TextBox1 control.
 </summary>
@@ -150,7 +30,7 @@ TextBox1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.Button1">
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Button1">
 	<summary>
 Button1 control.
 </summary>
@@ -158,17 +38,185 @@ Button1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.DropDownList2">
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label15">
 	<summary>
-DropDownList2 control.
+Label15 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:ProyectoDesarrollo.InscribirEvento.l_mensaje">
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label2">
 	<summary>
-l_mensaje control.
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label12">
+	<summary>
+Label12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label13">
+	<summary>
+Label13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label14">
+	<summary>
+Label14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label16">
+	<summary>
+Label16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label17">
+	<summary>
+Label17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label18">
+	<summary>
+Label18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label19">
+	<summary>
+Label19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label20">
+	<summary>
+Label20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Asignarexpositor_Ponencia.Label21">
+	<summary>
+Label21 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -342,6 +390,22 @@ l_mensaje control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.Login1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.Login1.Login12">
+	<summary>
+Login12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="P:ProyectoDesarrollo.My.MyWebExtension.Application">
 	<summary>
  Returns information about the current application.
@@ -383,6 +447,54 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:ProyectoDesarrollo.GenerarQR.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.GenerarQR.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.GenerarQR.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.GenerarQR.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.GenerarQR.TextBox4">
+	<summary>
+TextBox4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.GenerarQR.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:ProyectoDesarrollo.MantenerPonencia.form1">
 	<summary>
 form1 control.
@@ -394,6 +506,118 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:ProyectoDesarrollo.MantenerExpositor.form1">
 	<summary>
 form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.lbl_apemat">
+	<summary>
+lbl_apemat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.lbl_apepat">
+	<summary>
+lbl_apepat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.lbl_nom">
+	<summary>
+lbl_nom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.RadioButton1">
+	<summary>
+RadioButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.RadioButton2">
+	<summary>
+RadioButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.DropDownList2">
+	<summary>
+DropDownList2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ProyectoDesarrollo.InscribirEvento.l_mensaje">
+	<summary>
+l_mensaje control.
 </summary>
 	<remarks>
 Auto-generated field.

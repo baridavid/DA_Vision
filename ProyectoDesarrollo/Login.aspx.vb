@@ -34,6 +34,7 @@ Public Class Login
             Session("apePat") = dr.Item("ape_pat_user")
             Session("apeMat") = dr.Item("ape_mat_user")
             Session("codigoEst") = dr.Item("cod_estud")
+            Session("documento") = dr.Item("num_doc_user")
             Session("escuela") = dr.Item("esc_estud")
             Session("tipo_usuario") = dr.Item("tip_usu")
             FormsAuthentication.RedirectFromLoginPage(dr.Item("cod_user"), False)
